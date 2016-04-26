@@ -118,14 +118,11 @@ Conekta.Token.create($('#card-form'), successHandler, errorHandler);
 
 Please see https://www.conekta.io/docs/api for up-to-date documentation.
 
-## Library Development and Testing
+## Testing
 
-If you wish to make a pull request you can build and test your changes:
+You can run the test suite as follows:
 
 ```shell
-#build
-grunt
-
 #test
 npm test
 ```
