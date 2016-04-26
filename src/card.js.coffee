@@ -132,7 +132,7 @@ Conekta.card.validateExpiry = (exp_month, exp_year)->
   Conekta.card.validateExpirationDate(exp_month, exp_year)
 
 Conekta.card.validateName = (name) ->
-  (typeof name == 'string' and name.match(/^\s*[A-z]+\s+[A-z]+[\sA-z]*$/) != null and name.match(/visa|master\s*card|amex|american\s*express|banorte|banamex|bancomer|hsbc|scotiabank|jcb|diners\s*club|discover/i) == null)
+  (typeof name == 'string' and name.match(/^\s*[ñÑA-z]+\s+[ñÑA-z]+[\sñÑA-z]*$/) != null and name.match(/visa|master\s*card|amex|american\s*express|banorte|banamex|bancomer|hsbc|scotiabank|jcb|diners\s*club|discover/i) == null)
 
 Conekta.card.validateNumber = (number) ->
   if typeof number == 'string'
