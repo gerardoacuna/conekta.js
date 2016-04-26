@@ -134,9 +134,8 @@ docker pull conekta/conekta.js
 
 docker run -ti conekta/conekta.js /bin/bash --login
 ```
-## License
 
-Developed by [Conekta](https://www.conekta.io). Available with [MIT License](LICENSE).
+All issues and will be revised by [Conekta](https://www.conekta.io).
 
 ## We are hiring
 
